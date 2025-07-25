@@ -18,9 +18,11 @@ To build a powerful, data-driven dashboard that enables stakeholders to:
 
 ## 🏗️ Dataset & Schema
 
-- `constituencywise_results.csv`: Candidate-wise results including margin, total votes, and winning status
-- `partywise_results.csv`: Alliance mapping, party performance, and total seats won
-- `statewise_results.csv`: Mapping between constituencies and states
+- `constituencywise_details.csv`: Candidate-wise vote details including **EVM votes**, **postal votes**, and **total votes** for each constituency.
+- `constituencywise_results.csv`: Contains overall results by constituency, including winning candidate, party, total votes, and margin.
+- `partywise_results.csv`: Party-level aggregation of seats won, with alliance mapping.
+- `statewise_results.csv`: Maps each parliamentary constituency to its corresponding state.
+- `states.csv`: Master list of Indian states with unique `State_ID`.
 - SQL joins were created across these tables to allow meaningful analysis via Power BI
 
 ## 📊 Key Features
