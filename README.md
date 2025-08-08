@@ -1,42 +1,82 @@
-# Indian-General-Elections-2024-Constituency-Level-Analytics-Dashboard
+# 🇮🇳 Indian General Elections 2024 – Constituency-Level Analytics Dashboard
 
-This project is an ongoing end-to-end data analysis and business intelligence solution that explores the **2024 Indian Lok Sabha (Parliamentary) Election results**. It leverages **SQL** for data modeling and querying, and **Power BI** for dynamic, interactive visual storytelling across 543 constituencies.
+This project presents a complete **end-to-end data analysis and business intelligence solution** for the **2024 Indian Lok Sabha (Parliamentary) Election results**. It combines powerful **SQL-based data modeling** with an **interactive Power BI dashboard**, delivering constituency-level insights across 543 seats.
 
-## 📌 Objective 
+> ✅ **Status: Completed**
 
-To build a powerful, data-driven dashboard that enables stakeholders to:
+---
+
+##  Objective
+
+To build a robust and insightful election analytics dashboard that enables stakeholders to:
 - Analyze **party-wise** and **alliance-wise** performance (NDA, I.N.D.I.A., Others)
 - Explore **state-level** and **constituency-level** results
-- Compare **EVM vs postal vote distributions**
-- Identify **top candidates**, **winning margins**, and **voter trends**
+- Compare **EVM vs postal vote** distributions
+- Identify **top-performing candidates**, **winning margins**, and **regional trends**
 
-## 🧰 Tools & Technologies 
+---
 
-- **SQL Server** – for data cleaning, joins, window functions, aggregations
-- **Power BI** – for dashboarding, DAX measures, drill-throughs, filters
-- **CSV Dataset** – including 5000+ rows across state, constituency, party, and candidate data
+##  Tools & Technologies Used
 
-## 🏗️ Dataset & Schema
+- **SQL Server** – Data cleaning, joining tables, window functions, and aggregations
+- **Power BI** – Dashboarding, DAX measures, drill-throughs, bookmarks, filters
+- **CSV Datasets** – 5000+ rows covering states, constituencies, parties, and candidates
 
-- `constituencywise_details.csv`: Candidate-wise vote details including **EVM votes**, **postal votes**, and **total votes** for each constituency.
-- `constituencywise_results.csv`: Contains overall results by constituency, including winning candidate, party, total votes, and margin.
-- `partywise_results.csv`: Party-level aggregation of seats won, with alliance mapping.
-- `statewise_results.csv`: Maps each parliamentary constituency to its corresponding state.
-- `states.csv`: Master list of Indian states with unique `State_ID`.
-- SQL joins were created across these tables to allow meaningful analysis via Power BI
+---
 
-## 📊 Key Features
+##  Dataset & Schema
 
-- **Landing Page Dashboard**: National-level summary including total seats, alliance performance, and map-based filters
-- **Alliance Analysis**: Breakdown of seat share by NDA, I.N.D.I.A., and Others (with custom `party_alliance` field in SQL)
-- **State-Wise Drilldown**: Use slicers to explore region-specific results
-- **Top Candidates Module**: Identify candidates with the highest EVM votes and winning margins
-- **EVM vs Postal Vote Split**: Vote-type distribution across select constituencies
-- **Runner-up vs Winner Analysis**: Using window functions in SQL to determine 1st and 2nd positions
-- **Custom DAX Measures**: For total seat aggregation, vote margin groups, and dynamic titles
+| File | Description |
+|------|-------------|
+| `constituencywise_details.csv` | Candidate-level votes (EVM, Postal, Total) |
+| `constituencywise_results.csv` | Constituency-level winning candidate and margin |
+| `partywise_results.csv` | Party-wise seat counts + alliance classifications |
+| `statewise_results.csv` | Maps each constituency to a state |
+| `states.csv` | Master list of all Indian states |
+| `India_Election_Result.pbix` | Final Power BI dashboard |
 
-## 🧠 Sample SQL Operations
+Relational joins were established between these files using keys like `Party_ID`, `Constituency_ID`, and `State_ID` to allow a unified data model in Power BI.
 
-- Created derived columns like `party_alliance` for classification into NDA, I.N.D.I.A., and Others
-- Used `JOIN`, `CASE`, and `ROW_NUMBER()` to determine rankings and top performers
-- Aggregated vote counts, party seats, and state-level summaries
+---
+
+##  Key Features & Dashboards
+
+###  Dashboard 1: **Overview Analysis**
+- Seat share & % performance of NDA, I.N.D.I.A., and Others
+- Grid view tables showing all seats won per alliance
+- Interactive bookmarks for quick navigation
+
+###  Dashboard 2: **State Demographic Analysis**
+- State-wise seat distribution with **map charts & tooltips**
+- Drill-through to view all constituencies and winners
+- Identifies state with highest seats for each alliance
+
+###  Dashboard 3: **Political Landscape by State**
+- Filter by any state
+- Donut charts for party-wise seat share
+- Grid view of all parties and alliances
+
+###  Dashboard 4: **Constituency Analysis**
+- Deep dive into each constituency
+- Shows **total votes**, **EVM vs Postal votes**
+- Candidate-level breakdown: Winner, Runner-up, 2nd Runner-up
+
+###  Dashboard 5: **Details Grid**
+- Exportable grid view of all constituencies
+- Includes: votes, margins, alliances, and filter controls
+
+###  Dashboard 6: **Landing Page**
+- Clean UI with navigation buttons
+- Home button on every page
+- Responsive layout with hover effects
+
+---
+
+##  SQL Operations Performed
+
+- Added custom column `party_alliance` using `CASE` to classify parties as **NDA**, **I.N.D.I.A.**, or **Others**
+- Used **`JOIN`**, **`ROW_NUMBER()`**, and **aggregations** to:
+  - Rank candidates
+  - Find top EVM vote winners
+  - Compute seat distributions
+- Applied **window functions** to identify runner-up and 2nd runner-up candidates
