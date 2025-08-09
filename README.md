@@ -1,4 +1,4 @@
-# 🇮🇳 Indian General Elections 2024 – Constituency-Level Analytics Dashboard
+# Indian General Elections 2024 – Constituency-Level Analytics Dashboard
 
 This project presents a complete **end-to-end data analysis and business intelligence solution** for the **2024 Indian Lok Sabha (Parliamentary) Election results**. It combines powerful **SQL-based data modeling** with an **interactive Power BI dashboard**, delivering constituency-level insights across 543 seats.
 
