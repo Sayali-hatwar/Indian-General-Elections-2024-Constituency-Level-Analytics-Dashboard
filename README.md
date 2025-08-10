@@ -80,3 +80,5 @@ Relational joins were established between these files using keys like `Party_ID`
   - Find top EVM vote winners
   - Compute seat distributions
 - Applied **window functions** to identify runner-up and 2nd runner-up candidates
+
+*(.pbix file)* - https://app.powerbi.com/links/6jFhRmNZIB?ctid=3fc1a503-a415-43d0-a42c-0c46da001df4&pbi_source=linkShare&bookmarkGuid=cadce831-093e-446c-82bb-ad53f14b6557
