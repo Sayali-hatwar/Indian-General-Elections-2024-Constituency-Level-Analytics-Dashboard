@@ -95,6 +95,6 @@ Relational joins were established between these files using keys like `Party_ID`
 
 *(.pdf file)* - https://drive.google.com/open?id=1qqRn5y4LEZ_HPxAn67aHvz9KsqNy_3JB&usp=drive_fs
 
-*(.ppt file)* - https://gamma.app/docs/India-General-Election-Results-2024-dhnb6rwj3ukutec
+*(.ppt file)* - https://1drv.ms/p/c/8a0e9e1df0bcd847/EYmSWrhYVPROpCNCsnNTJLIBZ9scsZ6T1O_FjaYtO12g6Q?e=mhgCqf
 
 *(.pbix file)* - https://app.powerbi.com/links/6jFhRmNZIB?ctid=3fc1a503-a415-43d0-a42c-0c46da001df4&pbi_source=linkShare&bookmarkGuid=cadce831-093e-446c-82bb-ad53f14b6557
