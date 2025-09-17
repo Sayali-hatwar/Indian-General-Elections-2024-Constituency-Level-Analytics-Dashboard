@@ -83,12 +83,10 @@ Relational joins were established between these files using keys like `Party_ID`
 
 ## Summary Executive
 ### Overview of finding
-This project analyzes the Indian General Elections 2024 at the constituency level, providing insights into party performance, winning margins, alliance strength, and voter patterns across states. The dashboard highlights key outcomes such as the dominance of major alliances, close contests in critical constituencies, and shifts in vote share compared to previous elections. These findings not only summarize election results but also demonstrate how interactive dashboards can simplify large-scale, complex datasets into actionable insights, making it valuable for researchers, political analysts, journalists, and citizens interested in understanding election dynamics.
+This project analyzes the Indian General Elections 2024 at the constituency level, providing insights into party performance, winning margins, alliance strength, and voter patterns across states. The dashboard highlights key outcomes such as the dominance of major alliances, close contests in critical constituencies, and shifts in vote share compared to previous elections. These findings not only summarize election results but also demonstrate how interactive dashboards can simplify large-scale, complex datasets into actionable insights, making it valuable for researchers, political analysts, journalists, and citizens interested in understanding election dynamics.[here](https://drive.google.com/open?id=1qqRn5y4LEZ_HPxAn67aHvz9KsqNy_3JB&usp=drive_fs)
 
 ---
 Check out the Dashboard -
-
-*(.pdf file)* - [here](https://drive.google.com/open?id=1qqRn5y4LEZ_HPxAn67aHvz9KsqNy_3JB&usp=drive_fs)
 
 *(.ppt file)* - [here](https://1drv.ms/p/c/8a0e9e1df0bcd847/EYmSWrhYVPROpCNCsnNTJLIBZ9scsZ6T1O_FjaYtO12g6Q?e=mhgCqf)
 
